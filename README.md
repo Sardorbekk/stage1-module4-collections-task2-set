@@ -61,7 +61,6 @@ upperBound = 49
 ## 3. Create a combination of sets
 
 Implement the program which creates `Set<String>` of 3 `Sets`. Result `Set` should consist of the following elements:
-
 * elements that belong to the first and the second `Sets` at once and not belong to the third `Set`
 * elements that belong only to the third `Set`.
 
@@ -75,7 +74,8 @@ public class SetCombinationCreator {
 ### Example
 
 **Input**
-
+1-va 2-da listda bo'lgan lekin 3-da bo'lmagan elementlar kk,
+3 -da bo'lib 1-va 2-da yo'q bo'lgan elementlar kk
 ```
 firstSet = ["Java", "Collection",  "framework", "interface", "class", "Queue"]
 secondSet = ["Queue", "iterator", "Java", "Collection","comparator"]
